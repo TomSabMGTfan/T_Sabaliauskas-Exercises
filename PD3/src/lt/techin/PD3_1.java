@@ -1,7 +1,5 @@
 package lt.techin;
 
-import java.awt.*;
-
 public class PD3_1 {
     public static void main(String[] args) {
 
