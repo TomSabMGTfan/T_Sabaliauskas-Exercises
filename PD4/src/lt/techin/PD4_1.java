@@ -6,8 +6,8 @@ public class PD4_1 {
         //įvesties kintamaisiais ir atspausdina rezultatus
         double a = 10.00d;
         double b = 5.75d;
-        double c = 3.69;
-        double d = -2.24;
+        double c = 3.69d;
+        double d = -2.24d;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
