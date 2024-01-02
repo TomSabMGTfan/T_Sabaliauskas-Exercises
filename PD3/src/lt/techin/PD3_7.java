@@ -13,6 +13,7 @@ public class PD3_7 {
 //Create a variable of type String and assign it a value:
         String greeting = "Hello";
         System.out.println(greeting);
+
         System.out.println("**************");
         //A String in Java is actually an object,
         // which contain methods that can perform certain operations on strings. For example,
@@ -20,11 +21,13 @@ public class PD3_7 {
         String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         System.out.println("The length of the txt string is: " + txt.length());
         System.out.println("**************");
+
 //There are many string methods available, for example toUpperCase() and toLowerCase():
         String txt1 = "Hello World";
         System.out.println(txt1.toUpperCase());   // Outputs "HELLO WORLD"
         System.out.println(txt1.toLowerCase());   // Outputs "hello world
         System.out.println("**************");
+
         //lyginimas
         String text3 = "Tomas";
         String text4 = new String("Tom");
