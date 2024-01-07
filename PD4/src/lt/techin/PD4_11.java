@@ -32,7 +32,7 @@ public class PD4_11 {
 
         System.out.println("Automobilio greitis: " + autoGreitis + " km/h.");
         System.out.println("Tunelio ilgis: " + tunelioIlgis + " m.");
-        System.out.println("Automobilis tunelį pravažiuos per" + " " + laikas + " " + "s");
+        System.out.println("Automobilis tunelį pravažiuos per" + " " + String.format("%.2f", laikas) + " " + "s");
 
     }
 }
