@@ -2,6 +2,8 @@ package lt.techin;
 
 import java.util.Scanner;
 
+import static java.lang.Double.valueOf;
+
 public class PD4_9 {
     public static void main(String[] args) {
 //Statybininkui reikia pastatyti sieną, kurios ilgis yra a metrų, o aukštis h metrų (a ir h yra sveikieji
@@ -27,7 +29,10 @@ public class PD4_9 {
 
         System.out.println("Iveskite 1 plytos kaina: ");
         Scanner scanner3 = new Scanner(System.in);
+        //double vntKaina = scanner3.nextInt();
         double vntKaina = scanner3.nextInt();
+        //double vntKaina1 = Double.valueOf(vntKaina);
+        //double vntKaina = scanner3.nextInt();
 
         System.out.println("Sienos ilgis: " + a + " m.");
         System.out.println("Sienos aukstis: " + h + " m.");
