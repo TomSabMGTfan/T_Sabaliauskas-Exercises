@@ -1,0 +1,27 @@
+/**
+ * Parašykite Java metodą, kuris konvertuoja pateiktos eilutės kiekvieno žodžio pirmąją raidę į didžiąsias raides.
+ */
+
+package lt.techin.tomas;
+
+public class PD7_10 {
+    public static void main(String[] args) {
+        String text = "hello world";
+        System.out.println(capitalizeFirstCharOfWord(text));
+       // capitalizeFirstCharOfWord(text);
+    }
+
+    private static String capitalizeFirstCharOfWord(String text) {
+        String[] words = text.split("\\s+"); //regular expresion
+        StringBuilder result = new StringBuilder();
+        for (String word : words){
+            if(!word.isEmpty()){
+                result.append(Character.toUpperCase(word.charAt(0)));
+                result.append(word.substring(1));
+                result.append(" ");
+
+            }
+        }
+        return result.toString().trim();
+    }
+}
